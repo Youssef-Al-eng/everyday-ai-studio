@@ -1,0 +1,238 @@
+{
+  "repository": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+  "commit": "9beeb721c2af551bacaab827a76bddaecaa0ca5e",
+  "source": "agents/ metadata.yaml, agent.py, README.md and requirements.txt",
+  "candidates": [
+    {
+      "directory": "01-web-research-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langgraph",
+      "industry": "general",
+      "description": "Searches the web for a topic and synthesizes a structured research report",
+      "llm": "gpt-4o-mini",
+      "tags": "[research, web-search, rag, langgraph]"
+    },
+    {
+      "directory": "02-code-review-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "software-development",
+      "description": "Reviews code for bugs, security issues, performance, and style violations",
+      "llm": "gpt-4o",
+      "tags": "[code-review, software-development, security, quality]"
+    },
+    {
+      "directory": "03-pdf-qa-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "llamaindex",
+      "industry": "research",
+      "description": "Loads a PDF and answers questions about its content with conversation history",
+      "llm": "gpt-4o-mini",
+      "tags": "[pdf, rag, qa, document-analysis, llamaindex]"
+    },
+    {
+      "directory": "04-sql-query-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "data-analytics",
+      "description": "Answers natural language questions about SQL databases by generating and executing queries",
+      "llm": "gpt-4o-mini",
+      "tags": "[sql, database, natural-language, data-analysis]"
+    },
+    {
+      "directory": "05-email-drafting-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "crewai",
+      "industry": "communication",
+      "description": "Two-agent CrewAI system that drafts professional emails from context",
+      "llm": "gpt-4o-mini",
+      "tags": "[email, communication, crewai, productivity]"
+    },
+    {
+      "directory": "06-news-summarizer-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "media",
+      "description": "Fetches news on any topic and produces a structured briefing with key themes",
+      "llm": "gpt-4o-mini",
+      "tags": "[news, summarization, media, nlp]"
+    },
+    {
+      "directory": "07-github-issue-triager",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "software-development",
+      "description": "Automatically triages GitHub issues with severity, category, and routing recommendations",
+      "llm": "gpt-4o-mini",
+      "tags": "[github, devops, triage, issue-management, automation]"
+    },
+    {
+      "directory": "08-data-analysis-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "analytics",
+      "description": "Chat with CSV/Excel data using natural language queries powered by pandas",
+      "llm": "gpt-4o",
+      "tags": "[data-analysis, pandas, csv, analytics, natural-language]"
+    },
+    {
+      "directory": "09-resume-parser-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "human-resources",
+      "description": "Parses resumes to structured JSON and scores candidate fit against job descriptions",
+      "llm": "gpt-4o-mini",
+      "tags": "[hr, recruitment, resume, nlp, parsing]"
+    },
+    {
+      "directory": "10-meeting-notes-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "productivity",
+      "description": "Converts meeting transcripts into structured notes with action items and decisions",
+      "llm": "gpt-4o-mini",
+      "tags": "[productivity, meetings, summarization, action-items]"
+    },
+    {
+      "directory": "11-stock-research-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "finance",
+      "description": "Real-time stock fundamentals with AI-powered investment analysis",
+      "llm": "gpt-4o-mini",
+      "tags": "[finance, stocks, investment, yfinance, analysis]"
+    },
+    {
+      "directory": "12-travel-planner-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "crewai",
+      "industry": "travel",
+      "description": "Multi-agent CrewAI system creating personalized travel itineraries with budget planning",
+      "llm": "gpt-4o-mini",
+      "tags": "[travel, planning, crewai, itinerary, budget]"
+    },
+    {
+      "directory": "13-customer-support-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langgraph",
+      "industry": "customer-service",
+      "description": "RAG-powered customer support agent with escalation routing using LangGraph",
+      "llm": "gpt-4o-mini",
+      "tags": "[customer-support, rag, langgraph, faiss, escalation]"
+    },
+    {
+      "directory": "14-social-media-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "crewai",
+      "industry": "marketing",
+      "description": "Generates platform-optimized content for Twitter, LinkedIn, and Instagram",
+      "llm": "gpt-4o-mini",
+      "tags": "[social-media, content, marketing, crewai, copywriting]"
+    },
+    {
+      "directory": "15-unit-test-generator",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "software-development",
+      "description": "Generates comprehensive pytest test suites from Python code",
+      "llm": "gpt-4o",
+      "tags": "[testing, pytest, code-quality, automation, software-development]"
+    },
+    {
+      "directory": "16-documentation-writer",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "software-development",
+      "description": "Generates README and docstrings for Python modules",
+      "llm": "gpt-4o",
+      "tags": "[documentation, docstrings, readme, software-development]"
+    },
+    {
+      "directory": "17-recipe-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "food",
+      "description": "Suggests recipes from available ingredients with instructions and nutrition info",
+      "llm": "gpt-4o-mini",
+      "tags": "[recipes, food, nutrition, recommendation]"
+    },
+    {
+      "directory": "18-job-application-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "crewai",
+      "industry": "human-resources",
+      "description": "Generates cover letter, interview prep, and salary range from job description + candidate profile",
+      "llm": "gpt-4o-mini",
+      "tags": "[hr, job-search, cover-letter, interview-prep, recruitment]"
+    },
+    {
+      "directory": "19-competitive-analysis-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langgraph",
+      "industry": "business",
+      "description": "Multi-step LangGraph agent for comprehensive competitive landscape analysis",
+      "llm": "gpt-4o",
+      "tags": "[business, competitive-analysis, strategy, langgraph, market-research]"
+    },
+    {
+      "directory": "20-multi-agent-debate",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "langchain",
+      "industry": "research",
+      "description": "Two AI agents debate any topic with an AI judge scoring the outcome",
+      "llm": "gpt-4o",
+      "tags": "[multi-agent, debate, reasoning, research, argumentation]"
+    },
+    {
+      "directory": "21-pii-sanitization-agent",
+      "sourceExists": true,
+      "requirementsExists": true,
+      "readmeExists": true,
+      "framework": "other",
+      "industry": "general",
+      "description": "Sanitizes PII from text before it reaches LLMs or external APIs, using the TrustBoost API — fail-closed, multilingual, on-chain proof",
+      "llm": "none",
+      "tags": "[privacy, pii, sanitization, compliance, security, safety]"
+    }
+  ]
+}
