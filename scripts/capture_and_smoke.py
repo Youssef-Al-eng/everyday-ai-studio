@@ -53,8 +53,11 @@ with sync_playwright() as p:
     assert page.locator('.app-card').count()==20
     overflow=page.evaluate('document.documentElement.scrollWidth > document.documentElement.clientWidth')
     results.append({'mobile_catalog':'PASS','mobile_horizontal_overflow':overflow})
+    page.set_viewport_size({'width':1440,'height':1000})
     page.goto(BASE+'/#/gallery',wait_until='networkidle')
     assert page.locator('.gallery-card').count()==20,'Gallery should contain exactly 20 apps'
+    loaded=page.locator('.gallery-shot img').evaluate_all('imgs => imgs.length === 20 && imgs.every(img => img.complete && img.naturalWidth > 0)')
+    assert loaded,'Gallery screenshots did not all load'
     page.screenshot(path=str(ROOT/'outputs'/'design-gallery.png'),full_page=True)
     browser.close()
     (ROOT/'inventory'/'browser-verification.json').write_text(json.dumps({'browser':'Playwright-controlled Google Chrome','apps':results,'console_errors':errors},indent=2)+'\n',encoding='utf8')

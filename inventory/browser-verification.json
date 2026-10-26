@@ -129,7 +129,7 @@
       "desktop": "apps\\meeting-notes-agent\\screenshots\\desktop.png",
       "result": "apps\\meeting-notes-agent\\screenshots\\result.png",
       "mobile": "apps\\meeting-notes-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 83930
+      "screenshot_bytes": 83969
     },
     {
       "id": "stock-research-agent",
@@ -194,7 +194,7 @@
       "desktop": "apps\\unit-test-generator\\screenshots\\desktop.png",
       "result": "apps\\unit-test-generator\\screenshots\\result.png",
       "mobile": "apps\\unit-test-generator\\screenshots\\mobile.png",
-      "screenshot_bytes": 77902
+      "screenshot_bytes": 77903
     },
     {
       "id": "documentation-writer",
@@ -259,7 +259,7 @@
       "desktop": "apps\\multi-agent-debate\\screenshots\\desktop.png",
       "result": "apps\\multi-agent-debate\\screenshots\\result.png",
       "mobile": "apps\\multi-agent-debate\\screenshots\\mobile.png",
-      "screenshot_bytes": 79663
+      "screenshot_bytes": 79660
     },
     {
       "mobile_catalog": "PASS",
