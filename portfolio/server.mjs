@@ -22,7 +22,8 @@ const server=http.createServer(async(req,res)=>{
     if(url.pathname==='/api/provider/model'&&req.method==='GET'){const result=await verifyModel();reply(res,200,result);return}
     if(url.pathname==='/api/run'&&req.method==='POST'){
       const data=await body(req);const item=apps.find(a=>a.id===data.id);if(!item){reply(res,404,{error:'Unknown agent.'});return}
-      const result=await runAgent({id:item.id,input:data.input,demoOutput:item.output,mode:data.mode==='demo'?'demo':'auto'});
+      if(data.mode!=='demo'&&data.mode!=='groq'){reply(res,400,{error:'Choose Groq AI for a real request or Sample result for offline demo.',code:'MODE_REQUIRED'});return}
+      const result=await runAgent({id:item.id,input:data.input,demoOutput:item.output,mode:data.mode});
       reply(res,200,{...result,agent:item.id,requestId:crypto.randomUUID()});return
     }
     if(url.pathname.startsWith('/screenshots/')){
@@ -35,4 +36,4 @@ const server=http.createServer(async(req,res)=>{
     fs.readFile(file,(error,data)=>{if(error){res.writeHead(404,safeHeaders);res.end('Not found');return}res.writeHead(200,{...safeHeaders,'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store'});res.end(data)});
   }catch(error){if(!res.headersSent)reply(res,error.status||500,{error:error.message||'Unexpected server error.',code:error.code||'INTERNAL'});else res.destroy()}
 });
-const port=Number(process.env.PORT||4173);server.listen(port,'127.0.0.1',()=>console.log(`Fieldnotes running at http://127.0.0.1:${port} (${providerStatus().provider} mode; ${agentCount()} agents)`));
+const port=Number(process.env.PORT||4173);server.listen(port,'127.0.0.1',()=>console.log(`Everyday AI Studio running at http://127.0.0.1:${port} (${providerStatus().provider} mode; ${agentCount()} agents)`));

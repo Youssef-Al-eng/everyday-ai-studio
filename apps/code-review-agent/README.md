@@ -1,23 +1,42 @@
-# Patchwork Review
+# Code Reviewer
 
-Inspects supplied code for common injection and unsafe dynamic-execution patterns. Use it for an extra review pass before human review. Demo uses simple local pattern checks; code is never executed. Groq review uses the submitted snippet.
+Find likely bugs and security risks in code you paste, with evidence and suggested fixes.
+
+Part of Everyday AI Studio — Created by Youssef Alaa.
 
 ## Who it helps
 
 Developers seeking a quick first-pass review.
 
-## Open and run
+## Things to try
 
-Start the platform from its root using `npm start`, then open `http://127.0.0.1:4173/#/code-review-agent`. Paste the input shown in the workspace and choose **Groq if configured** or **Deterministic demo only**.
+- Check for SQL injection
+- Spot unsafe input handling
+- Explain a confusing function
+- Suggest a safer pattern
 
-## AI, integrations and privacy
+## Example
 
-The offline path runs locally and needs no API key. When a local `.env` contains `GROQ_API_KEY`, the backend can send the prompt text to Groq. The browser never receives the secret. Use your own permitted credential and review Groq's terms before sending sensitive text. This app does not call its upstream Python entry point. Upstream framework: LangChain.
+Review this function for security and correctness.
 
-## Files and outputs
+## Input and output
 
-The result can be copied from the browser. Recent prompts/results are stored in this browser's localStorage. Screenshots are in `screenshots/` (desktop, result and mobile). No output file is generated automatically.
+Provide Code text. The result is Findings with severity and fixes. This build accepts pasted text, not file uploads.
 
-## Limitations
+## Open and use
 
-Inspects supplied code for common injection and unsafe dynamic-execution patterns. Use it for an extra review pass before human review. Demo uses simple local pattern checks; code is never executed. Groq review uses the submitted snippet. See the platform's `IMPLEMENTATION_STATUS.md` for current test evidence.
+Run npm start from the root, then open http://127.0.0.1:4173/#/code-review-agent. Review the example, edit the text, and choose Groq AI for a real request or Sample result for an offline demonstration.
+
+## AI and privacy
+
+Real requests use the server-side GROQ_API_KEY in your local .env. No secret is sent to the browser. Groq receives submitted text only in real AI mode. Failed requests show an error and retry button; they never silently become samples.
+
+## Output and history
+
+Copy the result from the page. Recent inputs and outputs are saved in this browser, and can be cleared with Clear history. Screenshots are in screenshots/desktop.png, screenshots/result.png, and screenshots/mobile.png.
+
+## Limitations and verification
+
+Live AI has not been verified without a replacement key. Sample mode uses fixed fixtures or local heuristics. No external sending, publishing, live browsing, SQL execution, or uploaded-file indexing is connected. Consult the root IMPLEMENTATION_STATUS.md and inventory/live-groq-verification.json for actual evidence.
+
+Original source: upstream-source/agents/02-code-review-agent/agent.py (LangChain). Design: Developer IDE; see DESIGN_SYSTEMS.md.

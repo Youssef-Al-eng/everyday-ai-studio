@@ -1,0 +1,48 @@
+{
+  "run_at": "2026-10-26T15:19:28.640Z",
+  "model": "openai/gpt-oss-20b",
+  "checked": 8,
+  "failures": 0,
+  "results": [
+    {
+      "name": "empty_input_rejected",
+      "result": "PASS",
+      "detail": "HTTP 400 EMPTY_INPUT"
+    },
+    {
+      "name": "unknown_agent_rejected",
+      "result": "PASS",
+      "detail": "HTTP 404"
+    },
+    {
+      "name": "invalid_mode_rejected",
+      "result": "PASS",
+      "detail": "HTTP 400 MODE_REQUIRED"
+    },
+    {
+      "name": "oversized_input_rejected",
+      "result": "PASS",
+      "detail": "HTTP 413 INPUT_TOO_LARGE"
+    },
+    {
+      "name": "invalid_key_returns_auth_error",
+      "result": "PASS",
+      "detail": "HTTP 401 AUTH — Groq rejected the credential. Check GROQ_API_KEY."
+    },
+    {
+      "name": "model_verification_surfaces_auth",
+      "result": "PASS",
+      "detail": "HTTP 500 AUTH"
+    },
+    {
+      "name": "invalid_key_never_silently_falls_back_to_demo",
+      "result": "PASS",
+      "detail": "key present but invalid — real requests fail with AUTH instead of demo fallback"
+    },
+    {
+      "name": "demo_mode_still_works_without_valid_key",
+      "result": "PASS",
+      "detail": "HTTP 200 source=demo"
+    }
+  ]
+}

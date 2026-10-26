@@ -8,11 +8,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\web-research-agent\\screenshots\\desktop.png",
       "result": "apps\\web-research-agent\\screenshots\\result.png",
       "mobile": "apps\\web-research-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 82396
+      "screenshot_bytes": 109191
     },
     {
       "id": "code-review-agent",
@@ -21,11 +21,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\code-review-agent\\screenshots\\desktop.png",
       "result": "apps\\code-review-agent\\screenshots\\result.png",
       "mobile": "apps\\code-review-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 84757
+      "screenshot_bytes": 99991
     },
     {
       "id": "pdf-qa-agent",
@@ -34,11 +34,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\pdf-qa-agent\\screenshots\\desktop.png",
       "result": "apps\\pdf-qa-agent\\screenshots\\result.png",
       "mobile": "apps\\pdf-qa-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 80689
+      "screenshot_bytes": 111676
     },
     {
       "id": "sql-query-agent",
@@ -47,11 +47,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\sql-query-agent\\screenshots\\desktop.png",
       "result": "apps\\sql-query-agent\\screenshots\\result.png",
       "mobile": "apps\\sql-query-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 80340
+      "screenshot_bytes": 107698
     },
     {
       "id": "email-drafting-agent",
@@ -60,11 +60,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\email-drafting-agent\\screenshots\\desktop.png",
       "result": "apps\\email-drafting-agent\\screenshots\\result.png",
       "mobile": "apps\\email-drafting-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 82625
+      "screenshot_bytes": 95397
     },
     {
       "id": "news-summarizer-agent",
@@ -73,11 +73,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\news-summarizer-agent\\screenshots\\desktop.png",
       "result": "apps\\news-summarizer-agent\\screenshots\\result.png",
       "mobile": "apps\\news-summarizer-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 81122
+      "screenshot_bytes": 112313
     },
     {
       "id": "github-issue-triager",
@@ -86,11 +86,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\github-issue-triager\\screenshots\\desktop.png",
       "result": "apps\\github-issue-triager\\screenshots\\result.png",
       "mobile": "apps\\github-issue-triager\\screenshots\\mobile.png",
-      "screenshot_bytes": 81008
+      "screenshot_bytes": 100402
     },
     {
       "id": "data-analysis-agent",
@@ -99,11 +99,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\data-analysis-agent\\screenshots\\desktop.png",
       "result": "apps\\data-analysis-agent\\screenshots\\result.png",
       "mobile": "apps\\data-analysis-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 80323
+      "screenshot_bytes": 98037
     },
     {
       "id": "resume-parser-agent",
@@ -112,11 +112,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\resume-parser-agent\\screenshots\\desktop.png",
       "result": "apps\\resume-parser-agent\\screenshots\\result.png",
       "mobile": "apps\\resume-parser-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 82850
+      "screenshot_bytes": 110089
     },
     {
       "id": "meeting-notes-agent",
@@ -125,11 +125,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\meeting-notes-agent\\screenshots\\desktop.png",
       "result": "apps\\meeting-notes-agent\\screenshots\\result.png",
       "mobile": "apps\\meeting-notes-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 83969
+      "screenshot_bytes": 102743
     },
     {
       "id": "stock-research-agent",
@@ -138,11 +138,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\stock-research-agent\\screenshots\\desktop.png",
       "result": "apps\\stock-research-agent\\screenshots\\result.png",
       "mobile": "apps\\stock-research-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 81641
+      "screenshot_bytes": 108240
     },
     {
       "id": "travel-planner-agent",
@@ -151,11 +151,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\travel-planner-agent\\screenshots\\desktop.png",
       "result": "apps\\travel-planner-agent\\screenshots\\result.png",
       "mobile": "apps\\travel-planner-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 76528
+      "screenshot_bytes": 96001
     },
     {
       "id": "customer-support-agent",
@@ -164,11 +164,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\customer-support-agent\\screenshots\\desktop.png",
       "result": "apps\\customer-support-agent\\screenshots\\result.png",
       "mobile": "apps\\customer-support-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 79190
+      "screenshot_bytes": 106281
     },
     {
       "id": "social-media-agent",
@@ -177,11 +177,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\social-media-agent\\screenshots\\desktop.png",
       "result": "apps\\social-media-agent\\screenshots\\result.png",
       "mobile": "apps\\social-media-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 83805
+      "screenshot_bytes": 98355
     },
     {
       "id": "unit-test-generator",
@@ -190,11 +190,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\unit-test-generator\\screenshots\\desktop.png",
       "result": "apps\\unit-test-generator\\screenshots\\result.png",
       "mobile": "apps\\unit-test-generator\\screenshots\\mobile.png",
-      "screenshot_bytes": 77903
+      "screenshot_bytes": 100636
     },
     {
       "id": "documentation-writer",
@@ -203,11 +203,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\documentation-writer\\screenshots\\desktop.png",
       "result": "apps\\documentation-writer\\screenshots\\result.png",
       "mobile": "apps\\documentation-writer\\screenshots\\mobile.png",
-      "screenshot_bytes": 80862
+      "screenshot_bytes": 97902
     },
     {
       "id": "recipe-agent",
@@ -216,11 +216,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\recipe-agent\\screenshots\\desktop.png",
       "result": "apps\\recipe-agent\\screenshots\\result.png",
       "mobile": "apps\\recipe-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 76646
+      "screenshot_bytes": 97881
     },
     {
       "id": "job-application-agent",
@@ -229,11 +229,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\job-application-agent\\screenshots\\desktop.png",
       "result": "apps\\job-application-agent\\screenshots\\result.png",
       "mobile": "apps\\job-application-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 80015
+      "screenshot_bytes": 106636
     },
     {
       "id": "competitive-analysis-agent",
@@ -242,11 +242,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\competitive-analysis-agent\\screenshots\\desktop.png",
       "result": "apps\\competitive-analysis-agent\\screenshots\\result.png",
       "mobile": "apps\\competitive-analysis-agent\\screenshots\\mobile.png",
-      "screenshot_bytes": 82039
+      "screenshot_bytes": 114432
     },
     {
       "id": "multi-agent-debate",
@@ -255,11 +255,11 @@
       "primary_interaction": "PASS",
       "demo_mode": "PASS",
       "mobile_layout": "PASS",
-      "real_groq": "NOT TESTED \u2014 no local GROQ_API_KEY",
+      "real_groq": "PASS \u2014 live Groq response rendered and labeled openai/gpt-oss-20b",
       "desktop": "apps\\multi-agent-debate\\screenshots\\desktop.png",
       "result": "apps\\multi-agent-debate\\screenshots\\result.png",
       "mobile": "apps\\multi-agent-debate\\screenshots\\mobile.png",
-      "screenshot_bytes": 79660
+      "screenshot_bytes": 102366
     },
     {
       "mobile_catalog": "PASS",

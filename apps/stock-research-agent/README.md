@@ -1,23 +1,42 @@
-# Fundamentals
+# Company Comparison Helper
 
-Explains supplied financial facts and comparisons. Data is not live and this is not financial advice. No market feed is connected.
+Compare company figures you provide and explain trade-offs without giving investment advice.
+
+Part of Everyday AI Studio — Created by Youssef Alaa.
 
 ## Who it helps
 
 Learners practicing evidence-led financial comparison.
 
-## Open and run
+## Things to try
 
-Start the platform from its root using `npm start`, then open `http://127.0.0.1:4173/#/stock-research-agent`. Paste the input shown in the workspace and choose **Groq if configured** or **Deterministic demo only**.
+- Compare growth and margins
+- Explain missing context
+- Summarize a filing excerpt
+- List comparison questions
 
-## AI, integrations and privacy
+## Example
 
-The offline path runs locally and needs no API key. When a local `.env` contains `GROQ_API_KEY`, the backend can send the prompt text to Groq. The browser never receives the secret. Use your own permitted credential and review Groq's terms before sending sensitive text. This app does not call its upstream Python entry point. Upstream framework: LangChain.
+Compare these fictional firms: A growth 18%, margin 12%; B growth 11%, margin 21%.
 
-## Files and outputs
+## Input and output
 
-The result can be copied from the browser. Recent prompts/results are stored in this browser's localStorage. Screenshots are in `screenshots/` (desktop, result and mobile). No output file is generated automatically.
+Provide Company figures or notes. The result is Neutral comparison and caveats. This build accepts pasted text, not file uploads.
 
-## Limitations
+## Open and use
 
-Explains supplied financial facts and comparisons. Data is not live and this is not financial advice. No market feed is connected. See the platform's `IMPLEMENTATION_STATUS.md` for current test evidence.
+Run npm start from the root, then open http://127.0.0.1:4173/#/stock-research-agent. Review the example, edit the text, and choose Groq AI for a real request or Sample result for an offline demonstration.
+
+## AI and privacy
+
+Real requests use the server-side GROQ_API_KEY in your local .env. No secret is sent to the browser. Groq receives submitted text only in real AI mode. Failed requests show an error and retry button; they never silently become samples.
+
+## Output and history
+
+Copy the result from the page. Recent inputs and outputs are saved in this browser, and can be cleared with Clear history. Screenshots are in screenshots/desktop.png, screenshots/result.png, and screenshots/mobile.png.
+
+## Limitations and verification
+
+Live AI has not been verified without a replacement key. Sample mode uses fixed fixtures or local heuristics. No external sending, publishing, live browsing, SQL execution, or uploaded-file indexing is connected. Consult the root IMPLEMENTATION_STATUS.md and inventory/live-groq-verification.json for actual evidence.
+
+Original source: upstream-source/agents/11-stock-research-agent/agent.py (LangChain). Design: Data & Analytics; see DESIGN_SYSTEMS.md.

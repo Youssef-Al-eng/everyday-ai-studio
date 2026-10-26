@@ -1,23 +1,42 @@
-# Correspondence
+# Email Writer
 
-Drafts a professional message from supplied context. Edit and copy it for your own review; nothing is sent. Groq can tailor the draft when configured.
+Draft a clear email from your notes and chosen tone; nothing is sent.
+
+Part of Everyday AI Studio — Created by Youssef Alaa.
 
 ## Who it helps
 
 Teams writing clear replies under time pressure.
 
-## Open and run
+## Things to try
 
-Start the platform from its root using `npm start`, then open `http://127.0.0.1:4173/#/email-drafting-agent`. Paste the input shown in the workspace and choose **Groq if configured** or **Deterministic demo only**.
+- Write a polite follow-up
+- Ask for a revised deadline
+- Decline a request kindly
+- Make a note more concise
 
-## AI, integrations and privacy
+## Example
 
-The offline path runs locally and needs no API key. When a local `.env` contains `GROQ_API_KEY`, the backend can send the prompt text to Groq. The browser never receives the secret. Use your own permitted credential and review Groq's terms before sending sensitive text. This app does not call its upstream Python entry point. Upstream framework: CrewAI.
+Write a friendly follow-up asking for the delivery update by Friday.
 
-## Files and outputs
+## Input and output
 
-The result can be copied from the browser. Recent prompts/results are stored in this browser's localStorage. Screenshots are in `screenshots/` (desktop, result and mobile). No output file is generated automatically.
+Provide Message context and desired tone. The result is Editable email draft and subject. This build accepts pasted text, not file uploads.
 
-## Limitations
+## Open and use
 
-Drafts a professional message from supplied context. Edit and copy it for your own review; nothing is sent. Groq can tailor the draft when configured. See the platform's `IMPLEMENTATION_STATUS.md` for current test evidence.
+Run npm start from the root, then open http://127.0.0.1:4173/#/email-drafting-agent. Review the example, edit the text, and choose Groq AI for a real request or Sample result for an offline demonstration.
+
+## AI and privacy
+
+Real requests use the server-side GROQ_API_KEY in your local .env. No secret is sent to the browser. Groq receives submitted text only in real AI mode. Failed requests show an error and retry button; they never silently become samples.
+
+## Output and history
+
+Copy the result from the page. Recent inputs and outputs are saved in this browser, and can be cleared with Clear history. Screenshots are in screenshots/desktop.png, screenshots/result.png, and screenshots/mobile.png.
+
+## Limitations and verification
+
+Live AI has not been verified without a replacement key. Sample mode uses fixed fixtures or local heuristics. No external sending, publishing, live browsing, SQL execution, or uploaded-file indexing is connected. Consult the root IMPLEMENTATION_STATUS.md and inventory/live-groq-verification.json for actual evidence.
+
+Original source: upstream-source/agents/05-email-drafting-agent/agent.py (CrewAI). Design: Communication & Operations; see DESIGN_SYSTEMS.md.

@@ -1,0 +1,448 @@
+{
+  "images": 63,
+  "valid": 63,
+  "invalid": [],
+  "files": [
+    {
+      "path": "apps\\code-review-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1214,
+      "bytes": 99991
+    },
+    {
+      "path": "apps\\code-review-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2233,
+      "bytes": 112730
+    },
+    {
+      "path": "apps\\code-review-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1413,
+      "bytes": 128070
+    },
+    {
+      "path": "apps\\competitive-analysis-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1231,
+      "bytes": 114432
+    },
+    {
+      "path": "apps\\competitive-analysis-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2517,
+      "bytes": 134554
+    },
+    {
+      "path": "apps\\competitive-analysis-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1539,
+      "bytes": 154591
+    },
+    {
+      "path": "apps\\customer-support-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1194,
+      "bytes": 106281
+    },
+    {
+      "path": "apps\\customer-support-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2274,
+      "bytes": 118406
+    },
+    {
+      "path": "apps\\customer-support-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1381,
+      "bytes": 128106
+    },
+    {
+      "path": "apps\\data-analysis-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1440,
+      "bytes": 98037
+    },
+    {
+      "path": "apps\\data-analysis-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2280,
+      "bytes": 114327
+    },
+    {
+      "path": "apps\\data-analysis-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1670,
+      "bytes": 127174
+    },
+    {
+      "path": "apps\\documentation-writer\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1214,
+      "bytes": 97902
+    },
+    {
+      "path": "apps\\documentation-writer\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 4239,
+      "bytes": 184649
+    },
+    {
+      "path": "apps\\documentation-writer\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 3271,
+      "bytes": 218609
+    },
+    {
+      "path": "apps\\email-drafting-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1194,
+      "bytes": 95397
+    },
+    {
+      "path": "apps\\email-drafting-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2094,
+      "bytes": 103955
+    },
+    {
+      "path": "apps\\email-drafting-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1326,
+      "bytes": 114015
+    },
+    {
+      "path": "apps\\github-issue-triager\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1229,
+      "bytes": 100402
+    },
+    {
+      "path": "apps\\github-issue-triager\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2156,
+      "bytes": 105342
+    },
+    {
+      "path": "apps\\github-issue-triager\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1336,
+      "bytes": 114346
+    },
+    {
+      "path": "apps\\job-application-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1529,
+      "bytes": 106636
+    },
+    {
+      "path": "apps\\job-application-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2930,
+      "bytes": 157074
+    },
+    {
+      "path": "apps\\job-application-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 2029,
+      "bytes": 172045
+    },
+    {
+      "path": "apps\\meeting-notes-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1503,
+      "bytes": 102743
+    },
+    {
+      "path": "apps\\meeting-notes-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2052,
+      "bytes": 105471
+    },
+    {
+      "path": "apps\\meeting-notes-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1602,
+      "bytes": 114769
+    },
+    {
+      "path": "apps\\multi-agent-debate\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1231,
+      "bytes": 102366
+    },
+    {
+      "path": "apps\\multi-agent-debate\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2383,
+      "bytes": 125672
+    },
+    {
+      "path": "apps\\multi-agent-debate\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1450,
+      "bytes": 141212
+    },
+    {
+      "path": "apps\\news-summarizer-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1231,
+      "bytes": 112313
+    },
+    {
+      "path": "apps\\news-summarizer-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2344,
+      "bytes": 124187
+    },
+    {
+      "path": "apps\\news-summarizer-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1411,
+      "bytes": 139942
+    },
+    {
+      "path": "apps\\pdf-qa-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1503,
+      "bytes": 111676
+    },
+    {
+      "path": "apps\\pdf-qa-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2127,
+      "bytes": 115547
+    },
+    {
+      "path": "apps\\pdf-qa-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1604,
+      "bytes": 124978
+    },
+    {
+      "path": "apps\\recipe-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1500,
+      "bytes": 97881
+    },
+    {
+      "path": "apps\\recipe-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2406,
+      "bytes": 119942
+    },
+    {
+      "path": "apps\\recipe-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1915,
+      "bytes": 135524
+    },
+    {
+      "path": "apps\\resume-parser-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1503,
+      "bytes": 110089
+    },
+    {
+      "path": "apps\\resume-parser-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2169,
+      "bytes": 114155
+    },
+    {
+      "path": "apps\\resume-parser-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1735,
+      "bytes": 126615
+    },
+    {
+      "path": "apps\\social-media-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1194,
+      "bytes": 98355
+    },
+    {
+      "path": "apps\\social-media-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2204,
+      "bytes": 114342
+    },
+    {
+      "path": "apps\\social-media-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1383,
+      "bytes": 127207
+    },
+    {
+      "path": "apps\\sql-query-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1440,
+      "bytes": 107698
+    },
+    {
+      "path": "apps\\sql-query-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2183,
+      "bytes": 115024
+    },
+    {
+      "path": "apps\\sql-query-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1646,
+      "bytes": 129628
+    },
+    {
+      "path": "apps\\stock-research-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1469,
+      "bytes": 108240
+    },
+    {
+      "path": "apps\\stock-research-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2649,
+      "bytes": 139309
+    },
+    {
+      "path": "apps\\stock-research-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1804,
+      "bytes": 151749
+    },
+    {
+      "path": "apps\\travel-planner-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1471,
+      "bytes": 96001
+    },
+    {
+      "path": "apps\\travel-planner-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2676,
+      "bytes": 144550
+    },
+    {
+      "path": "apps\\travel-planner-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1865,
+      "bytes": 156337
+    },
+    {
+      "path": "apps\\unit-test-generator\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1214,
+      "bytes": 100636
+    },
+    {
+      "path": "apps\\unit-test-generator\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2982,
+      "bytes": 148893
+    },
+    {
+      "path": "apps\\unit-test-generator\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 2136,
+      "bytes": 171288
+    },
+    {
+      "path": "apps\\web-research-agent\\screenshots\\desktop.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1260,
+      "bytes": 109191
+    },
+    {
+      "path": "apps\\web-research-agent\\screenshots\\mobile.png",
+      "valid_png": true,
+      "width": 390,
+      "height": 2652,
+      "bytes": 144101
+    },
+    {
+      "path": "apps\\web-research-agent\\screenshots\\result.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 1721,
+      "bytes": 171604
+    },
+    {
+      "path": "outputs\\agent-directory.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 2437,
+      "bytes": 415128
+    },
+    {
+      "path": "outputs\\design-gallery.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 8323,
+      "bytes": 939942
+    },
+    {
+      "path": "outputs\\portfolio-home.png",
+      "valid_png": true,
+      "width": 1440,
+      "height": 2437,
+      "bytes": 415128
+    }
+  ]
+}

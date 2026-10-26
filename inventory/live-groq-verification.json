@@ -1,0 +1,374 @@
+{
+  "run_at": "2026-10-26T15:16:48.664Z",
+  "configured": true,
+  "model": "openai/gpt-oss-20b",
+  "attempted_agents": 20,
+  "live_successes": 20,
+  "results": [
+    {
+      "id": "web-research-agent",
+      "name": "Research Assistant",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 546,
+      "response_field_excerpts": {
+        "summary": "The team receives 40 repeated delivery inquiries weekly, with documentation spread over 12 pages, and all customer replies require human app",
+        "findings": [
+          "1. Automating the retrieval of relevant documentation from the 12-page set could",
+          "2. An AI chatbot or FAQ generator could handle initial customer queries, freeing",
+          "3. AI-assisted drafting tools could produce response drafts that humans review, "
+        ],
+        "open_questions": [
+          "What specific formats and storage systems hold the 12 pages of documentation?",
+          "Which parts of the customer reply process are most time-consuming for human appr",
+          "What regulatory or privacy constraints must be considered when deploying AI for "
+        ],
+        "limitations": "This brief is based solely on the supplied notes and does not include external research or evidence beyond the provided information."
+      }
+    },
+    {
+      "id": "code-review-agent",
+      "name": "Code Reviewer",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 414,
+      "response_field_excerpts": {
+        "summary": "The function concatenates user input directly into an SQL query, enabling SQL injection and potential type errors.",
+        "findings": [
+          "SQL injection vulnerability due to string concatenation of user_id in query",
+          "No input validation or type checking for user_id",
+          "Potential runtime error if user_id is not a string or cannot be concatenated"
+        ],
+        "overall_risk": "High"
+      }
+    },
+    {
+      "id": "pdf-qa-agent",
+      "name": "Document Question Answerer",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 369,
+      "response_field_excerpts": {
+        "answer": "The cancellation deadline is 14 calendar days from the date of purchase. The policy excludes custom‑made items from the cancellation right.",
+        "evidence": [
+          "Customers may cancel within 14 calendar days of purchase.",
+          "Custom‑made items are excluded."
+        ],
+        "limitations": "None"
+      }
+    },
+    {
+      "id": "sql-query-agent",
+      "name": "Database Query Helper",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 427,
+      "response_field_excerpts": {
+        "sql": "SELECT region, SUM(revenue) AS total_revenue\nFROM orders\nGROUP BY region\nORDER BY total_revenue DESC\nLIMIT 5;",
+        "explanation": "The query aggregates revenue per region, orders the results by total revenue in descending order, and limits the output to the top five regi",
+        "safety": "Safe SELECT-only query, no data modification.",
+        "results_note": "Illustrative; actual results depend on data."
+      }
+    },
+    {
+      "id": "email-drafting-agent",
+      "name": "Email Writer",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 358,
+      "response_field_excerpts": {
+        "subject": "Friendly Follow-Up on Delivery Update",
+        "draft": "Hi [Recipient Name],\n\nI hope you’re doing well! I just wanted to touch base regarding the delivery status we discussed. Could you please let",
+        "tone_notes": "Friendly, polite, and courteous"
+      }
+    },
+    {
+      "id": "news-summarizer-agent",
+      "name": "News Briefing Assistant",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 470,
+      "response_field_excerpts": {
+        "brief": "The headlines describe a city library extending its hours, a local college providing free study rooms, and library staff seeking funding to ",
+        "themes": [
+          "Community resource expansion",
+          "Funding for public services",
+          "Educational support"
+        ],
+        "tensions": [
+          "Library staff requesting funding to maintain expanded hours (C) vs. community be",
+          "Balancing free study room access (B) with resource allocation"
+        ],
+        "source_note": "These statements are based solely on the supplied fictional headlines and do not reflect current news."
+      }
+    },
+    {
+      "id": "github-issue-triager",
+      "name": "Bug Triage Assistant",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 424,
+      "response_field_excerpts": {
+        "severity": "High",
+        "category": "UI",
+        "route": "frontend",
+        "summary": "Save button spins forever on Firefox when editing profile",
+        "missing_details": "Missing error logs or stack trace"
+      }
+    },
+    {
+      "id": "data-analysis-agent",
+      "name": "Data Analyst",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 522,
+      "response_field_excerpts": {
+        "summary": "The data shows monthly revenue for the first quarter of a year: January $120, February $150, and March $135. The total revenue for the quart",
+        "calculations": [
+          "Total revenue = 120 + 150 + 135 = 405",
+          "Average monthly revenue = 405 / 3 = 135",
+          "Month-over-month change Jan→Feb = (150-120)/120 = 0.25 (25%)"
+        ],
+        "assumptions": [
+          "Revenue figures are in the same currency and represent net revenue for each mont"
+        ],
+        "limitations": "The dataset includes only three months; conclusions about trends or seasonality are limited. No context on costs, taxes, or external factors"
+      }
+    },
+    {
+      "id": "resume-parser-agent",
+      "name": "Resume Details Extractor",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 517,
+      "response_field_excerpts": {
+        "name": "Sam Lee",
+        "roles": [
+          "Product Designer at Example Studio, 2020-2025"
+        ],
+        "skills": [
+          "Figma",
+          "prototyping",
+          "accessibility"
+        ],
+        "education": [
+          "BA Design, Example College, 2019"
+        ],
+        "confidence_notes": [
+          "Impact claim regarding conversion increase of 14% is not verified in the provide"
+        ]
+      }
+    },
+    {
+      "id": "meeting-notes-agent",
+      "name": "Meeting Notes Assistant",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 492,
+      "response_field_excerpts": {
+        "summary": "Maya will send the budget Friday; Lee will book the room by Thursday.",
+        "decisions": [],
+        "action_items": [
+          "Maya to send budget by Friday",
+          "Lee to book room by Thursday"
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "stock-research-agent",
+      "name": "Company Comparison Helper",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 389,
+      "response_field_excerpts": {
+        "comparison": "Firm A shows higher revenue growth at 18% compared to Firm B's 11%, but Firm B has a higher operating margin of 21% versus Firm A's 12%.",
+        "observations": [
+          "Firm A has a stronger growth trajectory.",
+          "Firm B has a more efficient cost structure reflected in its margin."
+        ],
+        "missing_context": "Unknown",
+        "disclaimer": "This comparison is based solely on the provided growth and margin figures and does not account for other financial metrics or market conditi"
+      }
+    },
+    {
+      "id": "travel-planner-agent",
+      "name": "Trip Planner",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 663,
+      "response_field_excerpts": {
+        "itinerary": [
+          "Day 1: Arrive in Lisbon – settle into a budget-friendly guesthouse in Baixa. Mor",
+          "Day 2: Breakfast at the guesthouse. Take a day trip to Sintra (train €2.50 each ",
+          "Day 3: Morning visit to the Belém district – Jerónimos Monastery (€10) and the T"
+        ],
+        "assumptions": [
+          "All attractions are open during the visit dates",
+          "Public transport passes are available and affordable",
+          "Accommodation is a budget guesthouse or hostel with included breakfast"
+        ],
+        "budget_notes": "Estimated total: €450 includes accommodation (€120), meals (€150), transport (€50), attraction tickets (€80), and incidental expenses (€50).",
+        "verification_needed": "Confirm current opening hours, ticket prices, and availability of public transport passes for the specific travel dates."
+      }
+    },
+    {
+      "id": "customer-support-agent",
+      "name": "Customer Support Reply Helper",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 466,
+      "response_field_excerpts": {
+        "reply_draft": "Hello,\n\nThank you for reaching out. I understand your concern about the delay in the replacement shipment. According to our policy, we will ",
+        "policy_basis": "Escalate after five business days",
+        "escalation": "Logistics team",
+        "review_needed": "Yes"
+      }
+    },
+    {
+      "id": "social-media-agent",
+      "name": "Social Post Writer",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 460,
+      "response_field_excerpts": {
+        "drafts": [
+          "LinkedIn: Join us for the June 14–15 Book Fair! 📚 Explore new releases, meet au",
+          "Instagram: 📅 June 14–15 | 📚 Book Fair! Dive into fresh titles, author talks, a"
+        ],
+        "factual_checks": [
+          "The book fair dates are June 14–15, 2024.",
+          "The event includes new releases, author talks, and exclusive discounts."
+        ],
+        "review_note": "Drafts prepared for LinkedIn and Instagram. Factual checks confirm dates and event features. No additional information provided."
+      }
+    },
+    {
+      "id": "unit-test-generator",
+      "name": "Test Case Writer",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 560,
+      "response_field_excerpts": {
+        "tests": "import pytest\n\nfrom your_module import normalize_tag\n\n# Normal cases\nassert normalize_tag(\"  HelloWorld  \") == \"helloworld\"\nassert normalize",
+        "coverage_notes": [
+          "Tests cover normal operation, empty strings, whitespace-only strings, and invali",
+          "Edge cases for special characters are included to ensure strip and lower work co"
+        ],
+        "not_executed": "Unknown"
+      }
+    },
+    {
+      "id": "documentation-writer",
+      "name": "Documentation Writer",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 819,
+      "response_field_excerpts": {
+        "title": "JSON Settings Validator",
+        "draft": "# JSON Settings Validator\n\nThe JSON Settings Validator is a command‑line tool that checks a JSON file for the presence of a predefined set o",
+        "assumptions_to_verify": [
+          "The tool is distributed as a Python package and installed via pip",
+          "The command line interface uses the flags --config and --required",
+          "The tool reads a plain text file for required keys"
+        ]
+      }
+    },
+    {
+      "id": "recipe-agent",
+      "name": "Recipe Helper",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 437,
+      "response_field_excerpts": {
+        "title": "Quick Chickpea Spinach Tomato Salad",
+        "ingredients": [
+          "1 cup cooked chickpeas",
+          "2 cups fresh spinach",
+          "1 cup cherry tomatoes, halved"
+        ],
+        "steps": [
+          "Rinse and drain the chickpeas.",
+          "Wash the spinach and pat dry.",
+          "Halve the cherry tomatoes."
+        ],
+        "allergen_note": "Please verify that you have no allergies to chickpeas, tomatoes, or olive oil. No other allergens are present in this recipe."
+      }
+    },
+    {
+      "id": "job-application-agent",
+      "name": "Interview Preparation Coach",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 527,
+      "response_field_excerpts": {
+        "positioning": "Senior Product Designer with deep expertise in checkout redesign, focusing on user flow optimization, conversion rate improvement, and cross",
+        "practice_questions": [
+          "How did you identify the key pain points in the original checkout flow?",
+          "What metrics did you use to measure success after the redesign?",
+          "Describe a time you had to balance stakeholder demands with user experience prin"
+        ],
+        "story_prompts": [
+          "Tell me about a checkout redesign project where you significantly increased conv",
+          "Describe a challenge you faced during a checkout redesign and how you overcame i",
+          "Explain how you collaborated with engineering and product teams on a checkout re"
+        ],
+        "caveats": "All statements are based on the provided checkout redesign experience; specific company names, dates, and quantitative results are not discl"
+      }
+    },
+    {
+      "id": "competitive-analysis-agent",
+      "name": "Market Research Comparator",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 576,
+      "response_field_excerpts": {
+        "comparison": "Atlas provides both boards and docs but limits free seats to 3, making it suitable for smaller teams needing both features; Grove offers boa",
+        "evidence": [
+          "Atlas offers boards and docs, free for 3 seats",
+          "Grove offers boards but no docs, free for 5 seats",
+          "Notehouse offers docs but no boards, free for 10 seats"
+        ],
+        "assumptions": [],
+        "next_research": [
+          "Obtain full pricing tiers for each tool beyond the free seats to assess cost for",
+          "Verify if paid plans unlock missing features (e.g., boards in Notehouse or docs ",
+          "Determine any limits on board/document storage or collaboration limits per seat"
+        ]
+      }
+    },
+    {
+      "id": "multi-agent-debate",
+      "name": "Pros and Cons Reviewer",
+      "status": "RESPONSE_RECEIVED_REVIEW_REQUIRED",
+      "reason": "Response received; content relevance and browser rendering require review (openai/gpt-oss-20b).",
+      "model": "openai/gpt-oss-20b",
+      "usage_tokens": 514,
+      "response_field_excerpts": {
+        "supporting_view": "A 10‑person team could benefit from a four‑day work week for one month by potentially boosting morale, reducing burnout, and allowing time f",
+        "opposing_view": "The team may face challenges such as compressed deadlines, reduced availability for stakeholders, potential overload on the remaining days, ",
+        "balanced_assessment": "The decision depends on the team’s workload, client commitments, and ability to adapt schedules. A pilot month can provide data on productiv",
+        "reversible_next_step": "Set clear objectives, define success metrics, communicate the trial to stakeholders, schedule a brief weekly check‑in, and agree to reassess"
+      }
+    }
+  ]
+}

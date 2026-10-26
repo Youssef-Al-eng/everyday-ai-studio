@@ -1,0 +1,5 @@
+{
+  "about_creator": "PASS",
+  "groq_missing_key": "PASS",
+  "error_message": "Groq is not configured. Copy .env.example to .env, add GROQ_API_KEY, restart the server, then retry.\n\nCheck your Groq setup or choose Sample result for an offline example.\n\nRetry \u2197"
+}
